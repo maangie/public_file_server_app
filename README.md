@@ -9,7 +9,8 @@ rails で /public に色々置いてアレコレできるかな？のテスト�
 ## Getting started
 
 ```
-% git clone git@github.com:maangie/public_file_server_app.git
+% gem install bundler
+% git clone https://github.com/maangie/public_file_server_app.git
 % cd public_file_server_app
 % bin/bundle
 % rails server
