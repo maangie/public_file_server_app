@@ -1,24 +1,24 @@
-# README
+# public_file_server のテストアプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails で /public に色々置いてアレコレできるかな？のテストです。
+とりあえず [Slant](http://freehtml5.co/preview/?item=slant-free-html5-bootstrap-template) ってのを置いてます。
 
-Things you may want to cover:
+## System dependencies
+- ruby 2.3.3
 
-* Ruby version
+## Getting started
 
-* System dependencies
+```
+% git clone git@github.com:maangie/public_file_server_app.git
+% cd public_file_server_app
+% bin/bundle
+% rails server
+```
 
-* Configuration
+## Access
+http://localhost:3000
 
-* Database creation
+## Heroku
+とりあえず、heroku でも動かしてます。そのうち消すと思います。
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://public-file-server-app-74700.herokuapp.com
